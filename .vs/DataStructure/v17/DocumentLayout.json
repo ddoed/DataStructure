@@ -1,37 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\DataStructure0910\\",
+  "WorkspaceRootPath": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|C:\\Users\\Administrator\\Desktop\\DataStructure0910\\lecture2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|solutionrelative:lecture2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\lecture3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|solutionrelative:lecture3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|C:\\Users\\Administrator\\Desktop\\DataStructure0910\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\DoubliyLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|solutionrelative:DoubliyLinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|C:\\Users\\Administrator\\Desktop\\DataStructure0910\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|solutionrelative:LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\DoubliyLinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|solutionrelative:DoubliyLinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|C:\\Users\\Administrator\\Desktop\\DataStructure0910\\lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|solutionrelative:lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|C:\\Users\\Administrator\\Desktop\\DataStructure0910\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|solutionrelative:LinkedList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|C:\\Users\\Administrator\\Desktop\\DataStructure0910\\Complexity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|solutionrelative:lectures.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\Complexity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|solutionrelative:Complexity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|C:\\Users\\Administrator\\Desktop\\DataStructure0910\\Complexity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|solutionrelative:LinkedList.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\Complexity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|solutionrelative:Complexity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|C:\\Users\\Administrator\\Desktop\\DataStructure0910\\OT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\lecture2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|solutionrelative:lecture2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\OT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CF6E4057-D226-4BD7-B60C-83A10855F4F9}|DataStructure.vcxproj|solutionrelative:OT.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -42,67 +54,106 @@
       "DocumentGroups": [
         {
           "DockedWidth": 482,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoubliyLinkedList.cpp",
+              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\DoubliyLinkedList.cpp",
+              "RelativeDocumentMoniker": "DoubliyLinkedList.cpp",
+              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\DoubliyLinkedList.cpp",
+              "RelativeToolTip": "DoubliyLinkedList.cpp",
+              "ViewState": "AQIAAJIAAAAAAAAAAAAqwJ8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-12T07:16:30.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "lecture3.cpp",
+              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\lecture3.cpp",
+              "RelativeDocumentMoniker": "lecture3.cpp",
+              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\lecture3.cpp",
+              "RelativeToolTip": "lecture3.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-12T07:04:33.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DoubliyLinkedList.h",
+              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\DoubliyLinkedList.h",
+              "RelativeDocumentMoniker": "DoubliyLinkedList.h",
+              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\DoubliyLinkedList.h",
+              "RelativeToolTip": "DoubliyLinkedList.h",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAACgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-12T07:04:11.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "lecture2.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure0910\\lecture2.cpp",
+              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\lecture2.cpp",
               "RelativeDocumentMoniker": "lecture2.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\DataStructure0910\\lecture2.cpp",
+              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\lecture2.cpp",
               "RelativeToolTip": "lecture2.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAATAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAvwBIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-11T07:53:13.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "lectures.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure0910\\lectures.h",
+              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\lectures.h",
               "RelativeDocumentMoniker": "lectures.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\DataStructure0910\\lectures.h",
+              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\lectures.h",
               "RelativeToolTip": "lectures.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-11T07:52:07.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "LinkedList.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure0910\\LinkedList.cpp",
+              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\LinkedList.cpp",
               "RelativeDocumentMoniker": "LinkedList.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\DataStructure0910\\LinkedList.cpp",
+              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\LinkedList.cpp",
               "RelativeToolTip": "LinkedList.cpp",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADoAAAACAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-11T07:31:05.33Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "LinkedList.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure0910\\LinkedList.h",
+              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\LinkedList.h",
               "RelativeDocumentMoniker": "LinkedList.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\DataStructure0910\\LinkedList.h",
+              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\LinkedList.h",
               "RelativeToolTip": "LinkedList.h",
-              "ViewState": "AQIAACUAAAAAAAAAAAAAADUAAAAMAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAqwC8AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-11T07:02:38.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Complexity.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure0910\\Complexity.cpp",
+              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\Complexity.cpp",
               "RelativeDocumentMoniker": "Complexity.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\DataStructure0910\\Complexity.cpp",
+              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\Complexity.cpp",
               "RelativeToolTip": "Complexity.cpp",
               "ViewState": "AQIAADkAAAAAAAAAAAAowCgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -113,9 +164,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Complexity.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure0910\\Complexity.h",
+              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\Complexity.h",
               "RelativeDocumentMoniker": "Complexity.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\DataStructure0910\\Complexity.h",
+              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\Complexity.h",
               "RelativeToolTip": "Complexity.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -124,25 +175,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "OT.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure0910\\OT.cpp",
+              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\OT.cpp",
               "RelativeDocumentMoniker": "OT.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\DataStructure0910\\OT.cpp",
+              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\OT.cpp",
               "RelativeToolTip": "OT.cpp",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-10T07:07:17.567Z"
+              "WhenOpened": "2024-09-10T07:07:17.567Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\DataStructure0910\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\DataStructure0910\\main.cpp",
+              "ToolTip": "C:\\Users\\yimna\\OneDrive\\\uC0AC\uC9C4\\\uBC14\uD0D5 \uD654\uBA74\\DataStructure0910\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-10T07:05:32.066Z",
               "EditorCaption": ""
