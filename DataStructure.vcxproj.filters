@@ -48,6 +48,9 @@
     <ClCompile Include="DoubliyLinkedList.cpp">
       <Filter>소스 파일\자료구조</Filter>
     </ClCompile>
+    <ClCompile Include="lecture4.cpp">
+      <Filter>소스 파일\lecture</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lectures.h">
@@ -60,6 +63,9 @@
       <Filter>헤더 파일\자료구</Filter>
     </ClInclude>
     <ClInclude Include="LinkedList.h">
+      <Filter>헤더 파일\자료구</Filter>
+    </ClInclude>
+    <ClInclude Include="CirculerLinkedList.h">
       <Filter>헤더 파일\자료구</Filter>
     </ClInclude>
   </ItemGroup>
