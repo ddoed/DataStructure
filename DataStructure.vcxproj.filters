@@ -25,6 +25,9 @@
     <Filter Include="헤더 파일\자료구조">
       <UniqueIdentifier>{2aaa6c52-88dc-402a-a19d-67aa0980673e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="헤더 파일\예제">
+      <UniqueIdentifier>{b1a5bb27-dc8f-42f0-ac4e-b83a6aa57a1d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -77,8 +80,14 @@
     <ClInclude Include="RandomNumber.h">
       <Filter>헤더 파일\강의</Filter>
     </ClInclude>
+    <ClInclude Include="MyStack.h">
+      <Filter>헤더 파일\자료구조</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHistory.h">
+      <Filter>헤더 파일\예제</Filter>
+    </ClInclude>
     <ClInclude Include="GameRoom.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\예제</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
