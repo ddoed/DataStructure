@@ -1,0 +1,198 @@
+#pragma once
+#include <iostream>
+#include <queue>
+
+/*
+* 자료구조 : 컨테이너를 변형해서 순서를 정해두고 사용하는 어댑터 자료구조
+* 
+* 큐 자료구조 구현
+* - 데이터가 출력되는 인덱스를 front이름으로 표현
+* - 데이터가 저장되는 인덱스를 rear 이름으로 표현
+* - 선형 큐 front rear 초기값으로 되돌아갈 수 없다.
+*/
+
+// 구현해야할 함수
+// 입력 및 삭제 : push, pop
+// 필드 값 표현 : empty(), size(), front(), back()
+
+template <typename T>
+class ArrayBasedQueue
+{
+private:
+	T* queue; // 데이터를 저장하기위한 배열 이름
+	int front; // 출력 위치를 가리키는 인덱스
+	int rear; // 데이터 입력 위치를 가리키는 인덱스
+	int iCount; // 현재 자료구조의 원소의 갯수
+public:
+	// 생성자
+	ArrayBasedQueue(int size = 10)
+	{
+		queue = new T[size];
+		front = 0;
+		rear = 0;
+		iCount = 0;
+	}
+	~ArrayBasedQueue()
+	{
+		delete[] queue;
+	}
+
+	// 필드에 접근을 위한 함수
+	
+	int size()
+	{
+		return iCount;
+	}
+	T getfront()
+	{
+		return queue[front];
+	}
+	
+	T getback()
+	{
+		return queue[rear-1];
+	}
+
+	bool empty()
+	{
+		return (iCount == 0) ? true : false;
+	}
+
+	void push(T data)
+	{
+		queue[iCount] = data;
+		rear++;
+		iCount++;
+	}
+
+	void pop()
+	{
+		if (iCount != 0)
+		{
+			front++;
+			iCount--;
+		}
+		else
+		{
+			std::cout << "비었습니다" << std::endl;
+		}
+			
+	}
+
+	void print()
+	{
+		std::cout << "Front Index : " << front << std::endl;
+		std::cout << "Rear Index : " << rear << std::endl;
+		std::cout << "Queue Count : " << iCount << std::endl;
+	}
+
+	// Main Method 기능을 위한 함수 : 삽입, 삭제
+};
+
+template <typename T>
+class LinkedQueue
+{
+private:
+	struct QueueNode
+	{
+		T		   data;
+		QueueNode* pNext;
+
+		QueueNode(T data, QueueNode* pNode)
+		{
+			this->data = data;
+			pNext = pNode;
+		}
+	};
+
+	QueueNode*	front;
+	QueueNode*	rear;
+	int			iCount;
+public:
+	// 생성자 & 소멸자
+	LinkedQueue()
+	{
+		front	= nullptr;
+		rear	= nullptr;
+		iCount	= 0;
+	}
+	~LinkedQueue() {}
+	// Accessor
+	T Front()
+	{
+		return front->data;
+	}
+
+	T Back()
+	{
+		return rear->data;
+	}
+
+	int Size()
+	{
+		return iCount;
+	}
+
+	bool Empty()
+	{
+		return iCount == 0 ? true : false;
+	}
+
+	void Push(T data)
+	{
+		QueueNode* newNode = new QueueNode(data, nullptr);
+
+		if (Empty())
+		{
+			front	= newNode;
+			rear	= newNode;
+		}
+		else
+		{
+			rear->pNext = newNode;
+			rear = newNode;
+		}
+		iCount++;
+	}
+
+	void Pop()
+	{
+		if (Empty()) return;
+		QueueNode* OldNode = front;
+		front = front->pNext;
+		delete[] OldNode;
+		iCount--;
+	}
+};
+
+/// <summary>
+/// 원형 큐는 선형 큐의 단점을 개선하기 위해 등장한 자료구조입니다.
+/// 선형 큐는 Frontm Rear를 재활용하기 힘들다
+/// Pop(Dequeue) : Front = (Front + 1) % 최대값
+/// Push(Enqueu) : Rear = (Rear + 1) % 최대값
+/// </summary>
+
+void IQueueExample()
+{
+
+	ArrayBasedQueue<int> myQueue;
+	myQueue.push(1);
+	myQueue.push(2);
+	myQueue.push(3);
+	myQueue.push(4);
+	myQueue.push(5);
+
+	myQueue.print();
+	std::cout << myQueue.getback() << std::endl;
+
+	LinkedQueue<int> LQueue;
+	LQueue.Push(1);
+	LQueue.Push(2);
+	LQueue.Push(3);
+	LQueue.Push(4);
+	LQueue.Push(5);
+
+	LQueue.Pop();
+
+	std::cout << LQueue.Front() << std::endl <<  LQueue.Back() << std::endl;
+}

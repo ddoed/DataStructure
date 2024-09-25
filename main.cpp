@@ -5,6 +5,7 @@
 #include "GameRoom.h"
 #include "MyStack.h"
 #include "GameHistory.h"
+#include "MyQueue.h"
 
 int main()
 {
@@ -17,5 +18,8 @@ int main()
 	//lecture5();
 	//IGameRoomExample();
 	//StackExample();
-	GameHistoryExample();
+	//GameHistoryExample();
+
+	//lecture6();
+	IQueueExample();
 }
