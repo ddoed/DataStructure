@@ -6,6 +6,7 @@
 #include "MyStack.h"
 #include "GameHistory.h"
 #include "MyQueue.h"
+#include "CommandSystem.h"
 
 int main()
 {
@@ -21,5 +22,6 @@ int main()
 	//GameHistoryExample();
 
 	//lecture6();
-	IQueueExample();
+	//IQueueExample();
+	CommandSystemExample();
 }
