@@ -81,17 +81,18 @@ public:
 		{
 			throw std::out_of_range("덱이 비었음");
 		}
-		return blocks.back()[backIndex-1];
+		return blocks.back()[backIndex];
 	}
 
 	// Main Method
 	void pushFront(const T& data)
 	{
+		frontIndex--;
 		if (frontIndex < 0)
 		{
 			addFrontBlock();
 		}
-		blocks[0][frontIndex--] = data;
+		blocks[0][frontIndex] = data;
 		++iCount;
 	}
 

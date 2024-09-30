@@ -23,6 +23,55 @@ private:
 	int front; // 출력 위치를 가리키는 인덱스
 	int rear; // 데이터 입력 위치를 가리키는 인덱스
 	int iCount; // 현재 자료구조의 원소의 갯수
+	class Iterator
+	{
+	private:
+		T* ptr;
+	public:
+		Iterator() : ptr(nullptr) {}
+		Iterator(T* ptr) : ptr(ptr) {}
+
+		T& operator*()
+		{
+			return *ptr;
+		}
+
+		Iterator& operator++()
+		{
+			ptr++;
+			return *this;
+
+		}
+
+		Iterator& operator++(int)
+		{
+			iterator temp = *this;
+			ptr++;
+			return temp;
+		}
+
+		Iterator operator+(const int count)
+		{
+			Iterator temp = *this;
+			temp.ptr += count;
+			return temp;
+		}
+
+		bool operator==(const Iterator& other)
+		{
+			return ptr == other.ptr;
+		}
+
+		bool operator!=(const Iterator& other)
+		{
+			return ptr != other.ptr;
+		}
+	};
+	// iterator 허용된 함수
+public:
+	using iterator = Iterator; // using -> typedef
+	iterator begin() { return iterator(queue); }
+	iterator end() { return begin() + iCount; }
 public:
 	// 생성자
 	ArrayBasedQueue(int size = 10)
@@ -192,6 +241,14 @@ void IQueueExample()
 	LQueue.Push(4);
 	LQueue.Push(5);
 
+	// iterator로 반복문 출력하기
+
+	ArrayBasedQueue<int>::iterator queIt = myQueue.begin();
+
+	for (queIt;queIt != myQueue.end();queIt++)
+	{
+		std::cout << *queIt << std::endl;
+	}
 	LQueue.Pop();
 
 	std::cout << LQueue.Front() << std::endl <<  LQueue.Back() << std::endl;
