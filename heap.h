@@ -35,10 +35,15 @@ private:
 
 	void heapifyUp(int idx)
 	{
-		while (heap[idx] > heap[(idx - 1) / 2])
+		while (idx > 0)
 		{
-			std::swap(heap[(idx - 1) / 2], heap[idx]);
-			idx = (idx - 1) / 2;
+			if (heap[idx] > heap[(idx - 1) / 2])
+			{
+				std::swap(heap[(idx - 1) / 2], heap[idx]);
+				idx = (idx - 1) / 2;
+			}
+			else
+				break;
 		}
 
 
@@ -47,18 +52,18 @@ private:
 	void heapifyDown(int idx)
 	{
 		int size = heap.size();
-		int largest = idx;
-		int left = idx * 2 + 1;
-		int right = idx * 2 + 2;
-
 		while (true)
 		{
-			if (left < size && heap[largest] < heap[left])
+			int largest = idx;
+			int left = idx * 2 + 1;
+			int right = idx * 2 + 2;
+
+			if (left < size && heap[left] > heap[largest])
 			{
 				largest = left;
 			}
 
-			if (right < size && heap[largest] < heap[right])
+			if (right < size && heap[right] > heap[largest])
 			{
 				largest = right;
 			}

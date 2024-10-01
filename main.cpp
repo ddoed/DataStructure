@@ -29,6 +29,6 @@ int main()
 	//CommandSystemExample();
 	//IDequeExample();
 	//IteratorExample();
-	//PriorityQueueExample();
-	lecture7();
+	PriorityQueueExample();
+	//lecture7();
 }
