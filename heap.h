@@ -31,27 +31,96 @@
 class PriorityQueue
 {
 private:
-	std::vector<int> pQueue;
-public:
+	std::vector<int> heap;
+
 	void heapifyUp(int idx)
 	{
-		while (true)
+		while (heap[idx] > heap[(idx - 1) / 2])
 		{
-			if (pQueue[idx * 2 + 1] > pQueue[idx])
-			{
-				std::swap(pQueue[idx * 2 + 1], pQueue[idx]);
-			}
-			else if (pQueue[idx * 2 + 2] > pQueue[idx])
-			{
-				std::swap(pQueue[idx * 2 + 2], pQueue[idx]);
-			}
+			std::swap(heap[(idx - 1) / 2], heap[idx]);
+			idx = (idx - 1) / 2;
 		}
-		
-		
+
+
 	}
 
 	void heapifyDown(int idx)
 	{
+		int size = heap.size();
+		int largest = idx;
+		int left = idx * 2 + 1;
+		int right = idx * 2 + 2;
 
+		while (true)
+		{
+			if (left < size && heap[largest] < heap[left])
+			{
+				largest = left;
+			}
+
+			if (right < size && heap[largest] < heap[right])
+			{
+				largest = right;
+			}
+
+			if (largest == idx)
+			{
+				break;
+			}
+
+			std::swap(heap[largest], heap[idx]);
+			idx = largest;
+		}
 	}
+
+public:
+	void push(int _data)
+	{
+		heap.push_back(_data);
+		heapifyUp(heap.size() - 1);
+	}
+	
+	int pop()
+	{
+		if (heap.empty())
+		{
+			throw std::out_of_range("힙이 비어있습니다.");
+		}
+
+		int root = heap[0];
+		heap[0] = heap.back();
+		heap.pop_back();
+		heapifyDown(0);
+		return root;
+	}
+
+	int top() const
+	{
+		if (heap.empty())
+		{
+			throw std::out_of_range("힙이 비어있습니다.");
+		}
+
+		return heap[0];
+	}
+
+	bool empty() const { return heap.empty(); }
+
+	int size() const { return heap.size(); }
+	
 };
+
+void PriorityQueueExample()
+{
+	PriorityQueue pQ;
+	pQ.push(1);
+	pQ.push(3);
+	pQ.push(5);
+	pQ.push(7);
+	pQ.push(9);
+
+	while (!pQ.empty())
+	{
+		std::cout << "우선 순위 큐 결과 : " << pQ.pop() << std::endl;
+	}
+}
