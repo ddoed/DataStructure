@@ -1,6 +1,7 @@
+
 #include <iostream>
 #include <vector>
-#include "Complexity.h"
+#include "complexity.h"
 #include "lectures.h"
 #include "GameRoom.h"
 #include "MyStack.h"
@@ -11,10 +12,14 @@
 #include "iterator.h"
 #include "heap.h"
 #include "tree.h"
+#include "set.h"
+#include "myMap.h"
+#include "hashTable.h"
 
 int main()
 {
 	//std::cout << "자료구조" << std::endl;
+
 	//lecture1();
 	//Example01();
 	//lecture2();
@@ -23,8 +28,7 @@ int main()
 	//lecture5();
 	//IGameRoomExample();
 	//StackExample();
-	//GameHistoryExample();
-
+	//iGameHistoryExample();
 	//lecture6();
 	//IQueueExample();
 	//CommandSystemExample();
@@ -32,5 +36,8 @@ int main()
 	//IteratorExample();
 	//PriorityQueueExample();
 	//lecture7();
-	TreeExample();
+	//TreeExample();
+	SetExample();
+	//mapExample();
+	//HashExample();
 }

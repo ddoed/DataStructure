@@ -146,15 +146,19 @@
     <ClInclude Include="DoubliyLinkedList.h" />
     <ClInclude Include="GameHistory.h" />
     <ClInclude Include="GameRoom.h" />
+    <ClInclude Include="Graph.h" />
+    <ClInclude Include="hashTable.h" />
     <ClInclude Include="heap.h" />
     <ClInclude Include="iterator.h" />
     <ClInclude Include="lectures.h" />
     <ClInclude Include="LinkedList.h" />
     <ClInclude Include="MyDeque.h" />
+    <ClInclude Include="myMap.h" />
     <ClInclude Include="MyQueue.h" />
     <ClInclude Include="MyStack.h" />
     <ClInclude Include="MyVector.h" />
     <ClInclude Include="RandomNumber.h" />
+    <ClInclude Include="set.h" />
     <ClInclude Include="tree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
