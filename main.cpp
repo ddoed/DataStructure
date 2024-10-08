@@ -15,6 +15,7 @@
 #include "set.h"
 #include "myMap.h"
 #include "hashTable.h"
+#include "Graph.h"
 
 int main()
 {
@@ -37,7 +38,8 @@ int main()
 	//PriorityQueueExample();
 	//lecture7();
 	//TreeExample();
-	SetExample();
+	//SetExample();
 	//mapExample();
 	//HashExample();
+	GraphExample();
 }
