@@ -1,20 +1,20 @@
 ﻿  main.cpp
-C:\Users\Administrator\Desktop\DataStructure0910\GameRoom.h(79,9): warning C4804: '<=': 연산에 'bool' 형식을 사용하는 것은 안전하지 않습니다.
-C:\Users\Administrator\Desktop\DataStructure0910\iterator.h(147,13): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
-C:\Users\Administrator\Desktop\DataStructure0910\iterator.h(148,13): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
-C:\Users\Administrator\Desktop\DataStructure0910\iterator.h(149,13): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
-C:\Users\Administrator\Desktop\DataStructure0910\heap.h(54,12): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Administrator\Desktop\DataStructure0910\heap.h(85,25): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Administrator\Desktop\DataStructure0910\heap.h(114,37): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Administrator\Desktop\DataStructure0910\set.h(39,52): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Administrator\Desktop\DataStructure0910\set.h(69,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Administrator\Desktop\DataStructure0910\set.h(70,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Administrator\Desktop\DataStructure0910\set.h(71,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Administrator\Desktop\DataStructure0910\set.h(76,48): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Administrator\Desktop\DataStructure0910\set.h(77,48): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Administrator\Desktop\DataStructure0910\set.h(78,48): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\Administrator\Desktop\DataStructure0910\hashTable.h(42,11): warning C4834: [[nodiscard]] 특성이 포함된 함수의 반환 값을 버리는 중입니다.
-C:\Users\Administrator\Desktop\DataStructure0910\MyQueue.h(50,1): warning C4172: 지역 변수 또는 임시: temp의 주소를 반환하고 있습니다.
-C:\Users\Administrator\Desktop\DataStructure0910\iterator.h(60,1): warning C4172: 지역 변수 또는 임시: temp의 주소를 반환하고 있습니다.
-C:\Users\Administrator\Desktop\DataStructure0910\tree.h(149,1): warning C4715: 'BinarySearchTree::search': 모든 제어 경로에서 값을 반환하지는 않습니다.
-  DataStructure.vcxproj -> C:\Users\Administrator\Desktop\DataStructure0910\x64\Debug\DataStructure.exe
+C:\Users\yimna\OneDrive\사진\바탕 화면\DataStructure0910\GameRoom.h(79,9): warning C4804: '<=': 연산에 'bool' 형식을 사용하는 것은 안전하지 않습니다.
+C:\Users\yimna\OneDrive\사진\바탕 화면\DataStructure0910\iterator.h(147,13): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\yimna\OneDrive\사진\바탕 화면\DataStructure0910\iterator.h(148,13): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\yimna\OneDrive\사진\바탕 화면\DataStructure0910\iterator.h(149,13): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\yimna\OneDrive\사진\바탕 화면\DataStructure0910\heap.h(54,12): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yimna\OneDrive\사진\바탕 화면\DataStructure0910\heap.h(85,25): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yimna\OneDrive\사진\바탕 화면\DataStructure0910\heap.h(114,37): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yimna\OneDrive\사진\바탕 화면\DataStructure0910\set.h(39,52): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yimna\OneDrive\사진\바탕 화면\DataStructure0910\set.h(69,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yimna\OneDrive\사진\바탕 화면\DataStructure0910\set.h(70,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yimna\OneDrive\사진\바탕 화면\DataStructure0910\set.h(71,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yimna\OneDrive\사진\바탕 화면\DataStructure0910\set.h(76,48): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yimna\OneDrive\사진\바탕 화면\DataStructure0910\set.h(77,48): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yimna\OneDrive\사진\바탕 화면\DataStructure0910\set.h(78,48): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yimna\OneDrive\사진\바탕 화면\DataStructure0910\hashTable.h(42,11): warning C4834: [[nodiscard]] 특성이 포함된 함수의 반환 값을 버리는 중입니다.
+C:\Users\yimna\OneDrive\사진\바탕 화면\DataStructure0910\MyQueue.h(50,1): warning C4172: 지역 변수 또는 임시: temp의 주소를 반환하고 있습니다.
+C:\Users\yimna\OneDrive\사진\바탕 화면\DataStructure0910\iterator.h(60,1): warning C4172: 지역 변수 또는 임시: temp의 주소를 반환하고 있습니다.
+C:\Users\yimna\OneDrive\사진\바탕 화면\DataStructure0910\tree.h(149,1): warning C4715: 'BinarySearchTree::search': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  DataStructure.vcxproj -> C:\Users\yimna\OneDrive\사진\바탕 화면\DataStructure0910\x64\Debug\DataStructure.exe
