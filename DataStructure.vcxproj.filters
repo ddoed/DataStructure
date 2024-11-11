@@ -48,7 +48,7 @@
     <ClCompile Include="OT.cpp">
       <Filter>소스 파일\자료구조</Filter>
     </ClCompile>
-    <ClCompile Include="DoubliyLinkedList.cpp">
+    <ClCompile Include="DoublyLinkedList.cpp">
       <Filter>소스 파일\자료구조</Filter>
     </ClCompile>
     <ClCompile Include="lecture4.cpp">
@@ -71,7 +71,7 @@
     <ClInclude Include="Complexity.h">
       <Filter>헤더 파일\자료구조</Filter>
     </ClInclude>
-    <ClInclude Include="DoubliyLinkedList.h">
+    <ClInclude Include="DoublyLinkedList.h">
       <Filter>헤더 파일\자료구조</Filter>
     </ClInclude>
     <ClInclude Include="LinkedList.h">

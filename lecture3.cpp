@@ -1,15 +1,16 @@
 #include "lectures.h"
-#include "DoubliyLinkedList.h"
+#include "DoublyLinkedList.h"
 
 void lecture3()
 {
-	DoubliyLinkedList dList;
+	DoublyLinkedList dList;
 	dList.PushFront("1");
 	dList.PushBack("2");
 	dList.Insert(1,"1-2");
-	dList.Insert(1, "1-1-2");
-	//dList.RemoveFront();
-	//dList.RemoveBack();
+	dList.Insert(0, "1-1-2");
+	dList.RemoveFront();
+	dList.PushBack("1-1-1-2");
+	dList.RemoveBack();
 	dList.RemoveAt(1);
 
 	std::cout << dList.FrontValue() << std::endl;
