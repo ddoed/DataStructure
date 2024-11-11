@@ -50,6 +50,9 @@ public:
 	void PushFront(const int& _data);
 	void PushBack(const int& _data);
 
+	void InsertAfter(IntNode* prevNode, const int& _data);
+	IntNode* GetNode(int index);
+
 	void RemoveFront();
 	void RemoveBack();
 

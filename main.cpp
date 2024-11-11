@@ -23,7 +23,7 @@ int main()
 
 	//lecture1();
 	//Example01();
-	//lecture2();
+	lecture2();
 	//lecture3();
 	//lecture4();
 	//lecture5();
@@ -41,5 +41,5 @@ int main()
 	//SetExample();
 	//mapExample();
 	//HashExample();
-	GraphExample();
+	//GraphExample();
 }

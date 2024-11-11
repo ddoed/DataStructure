@@ -6,14 +6,10 @@ void lecture2()
 	ILinkedList iList;
 
 	iList.PushFront(10);
-	iList.FrontValue();
-	iList.PushFront(5);
-	iList.FrontValue();
-
-	iList.PushBack(15);
 	iList.TailValue();
-
+	iList.PushBack(30);
+	iList.TailValue();
+	iList.InsertAfter(iList.GetNode(0),20);
 	iList.RemoveBack();
 	iList.TailValue();
-
 }
