@@ -11,8 +11,7 @@
 // Last In Fist Out
 
 // 스택의 장점
-// 1. 클래스 구현하기가 쉽다
-// 2. LIFO 방식으로 순서대로 저장
+// 1. 클래스 구현하기가 쉽다 저장
 
 // 1. 실행 취소(Undo) : Ctrl + z
 // 2. 후위 표기법 : 컴퓨터가 읽기에 쉽게 표현된 연산 표기법
@@ -53,7 +52,7 @@ public:
 	{
 		T* newstackArray = new T[newSize];
 		// 2. 새로 만든 배열에 기존 배열 대입
-		for (int i = 0; i < top; i++)
+		for (int i = 0; i <= top; i++)
 		{
 			newstackArray[i] = stackArray[i];
 		}
