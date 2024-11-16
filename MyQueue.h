@@ -2,6 +2,8 @@
 #include <iostream>
 #include <queue>
 
+using namespace std;
+
 /*
 * 자료구조 : 컨테이너를 변형해서 순서를 정해두고 사용하는 어댑터 자료구조
 * 
@@ -165,7 +167,13 @@ public:
 		rear	= nullptr;
 		iCount	= 0;
 	}
-	~LinkedQueue() {}
+	~LinkedQueue() 
+	{
+		while (!Empty())
+		{
+			Pop();
+		}
+	}
 	// Accessor
 	T Front()
 	{
@@ -209,7 +217,7 @@ public:
 		if (Empty()) return;
 		QueueNode* OldNode = front;
 		front = front->pNext;
-		delete[] OldNode;
+		delete OldNode;
 		iCount--;
 	}
 };
@@ -221,35 +229,112 @@ public:
 /// Push(Enqueu) : Rear = (Rear + 1) % 최대값
 /// </summary>
 
+template <typename T>
+class MyCircularQueue
+{
+private:
+	T* queueArray;
+	int capacity;
+	int front;
+	int rear;
+public:
+	MyCircularQueue() {}
+	MyCircularQueue(int size=5) : capacity(size), front(0), rear(0)
+	{
+		queueArray = new T[size + 1];
+	}
+	~MyCircularQueue() 
+	{
+		delete[] queueArray;
+		queueArray = nullptr;
+	}
+
+	bool IsEmpty() const
+	{
+		return front == rear;
+	}
+
+	bool IsFull() const
+	{
+		return (rear + 1) % (capacity + 1) == front;
+	}
+
+	void push(T data)
+	{
+		if (IsFull())
+		{
+			cout << "큐가 가득 찼습니다" << endl;
+			return;
+		}
+		queueArray[rear] = data;
+		rear = (rear + 1) % (capacity + 1);
+	}
+
+	void pop()
+	{
+		if(IsEmpty()) {
+			cout << "큐가 비어 있습니다" << endl;
+			return;
+		}
+		T data = queueArray[front];
+		front = (front + 1) % (capacity + 1);
+		cout << data << endl;
+	}
+};
+
 void IQueueExample()
 {
-
-	ArrayBasedQueue<int> myQueue;
-	myQueue.push(1);
-	myQueue.push(2);
-	myQueue.push(3);
-	myQueue.push(4);
-	myQueue.push(5);
-
-	myQueue.print();
-	std::cout << myQueue.getback() << std::endl;
-
+	//MyCircularQueue<int> cq(5);
+	//
+	//cq.push(1);
+	//cq.push(2);
+	//cq.push(3);
+	//cq.push(4);
+	//cq.push(5);
+	//cq.push(6);
+	//
+	//cq.pop();
+	//cq.pop();
+	//cq.pop();
+	//cq.pop();
+	//cq.pop();
+	//cq.pop();
+	//ArrayBasedQueue<int> myQueue;
+	//myQueue.push(1);
+	//myQueue.push(2);
+	//myQueue.push(3);
+	//myQueue.push(4);
+	//myQueue.push(5);
+	//
+	//myQueue.print();
+	//std::cout << myQueue.getback() << std::endl;
+	//
 	LinkedQueue<int> LQueue;
 	LQueue.Push(1);
 	LQueue.Push(2);
 	LQueue.Push(3);
 	LQueue.Push(4);
 	LQueue.Push(5);
-
-	// iterator로 반복문 출력하기
-
-	ArrayBasedQueue<int>::iterator queIt = myQueue.begin();
-
-	for (queIt;queIt != myQueue.end();queIt++)
-	{
-		std::cout << *queIt << std::endl;
-	}
+	cout << LQueue.Front() << endl;
 	LQueue.Pop();
-
-	std::cout << LQueue.Front() << std::endl <<  LQueue.Back() << std::endl;
+	cout << LQueue.Front() << endl;
+	LQueue.Pop();
+	cout << LQueue.Front() << endl;
+	LQueue.Pop();
+	cout << LQueue.Front() << endl;
+	LQueue.Pop();
+	cout << LQueue.Front() << endl;
+	LQueue.Pop();
+	
+	//// iterator로 반복문 출력하기
+	//
+	//ArrayBasedQueue<int>::iterator queIt = myQueue.begin();
+	//
+	//for (queIt;queIt != myQueue.end();queIt++)
+	//{
+	//	std::cout << *queIt << std::endl;
+	//}
+	//LQueue.Pop();
+	//
+	//std::cout << LQueue.Front() << std::endl <<  LQueue.Back() << std::endl;
 }

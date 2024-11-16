@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <vector>
 #include "complexity.h"
@@ -30,7 +29,7 @@ int main()
 	//IGameRoomExample();
 	//StackExample();
 	//iGameHistoryExample();
-	lecture6();
+	//lecture6();
 	//IQueueExample();
 	//CommandSystemExample();
 	//IDequeExample();
