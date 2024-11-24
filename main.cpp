@@ -40,5 +40,5 @@ int main()
 	//SetExample();
 	//mapExample();
 	//HashExample();
-	//GraphExample();
+	GraphExample();
 }
